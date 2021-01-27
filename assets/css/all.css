@@ -4,7 +4,9 @@
 } */
 
 
-
+html,body{
+    background-color: #060719;
+}
 body,
 ul,
 ol
@@ -23,25 +25,26 @@ a{
 }
 a:hover{
     text-decoration: none;
+    color: #fff;
 }
 
 h1{
-    font-size: 54px;
+    font-size: 55px;
 }
 h2{
-    font-size: 42px;
-}
-h3{
     font-size: 36px;
 }
-h4{
+h3{
     font-size: 30px;
 }
-h5{
+h4{
     font-size: 24px;
 }
+h5{
+    font-size: 20px;
+}
 h6{
-    font-size: 21px;
+    font-size: 18px;
 }
 
 h1,
@@ -52,5 +55,126 @@ h5,h6{
     margin: 0px;
 }
 p{
-    font-size: 16px;    
+    font-size: 18px;    
+}
+.container-fluid{
+    max-width: 90%;
+    margin: auto;
+}
+
+
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Header
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*/
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul#menu-header {
+    display: flex;
+}
+ul#menu-header li {
+    padding: 0px 40px;
+}
+header.site-header {
+    padding: 20px 0px;
+    position: absolute;
+    padding: 20px 0px;
+    width: 100%;
+}
+ul#menu-header li a {
+    color: #fff;
+}
+.header-download-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, rgba(145,32,221,1) 0%, rgba(56,49,226,1) 100%);
+    border: 1px solid rgb(145,32,221);
+    color: #fff;
+    border-radius: 5px;
+    min-width: 165px;
+    height: 45px;
+}
+.nav-toggler{
+    display: none;
+}
+
+
+
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Homa Main Banner
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*/
+
+.hmb-section {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+.hmb-img{
+    width: 100%;
+}
+.hmb-img img{
+    width: 100%;
+}
+.hmb-info {
+    max-width: 600px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.hmb-info h1 {
+    color: #fff;
+}
+.hmb-info p {
+    color: #fff;
+    padding: 10px 0px;
+}
+.hmb-info-btn {
+    display: flex;
+    justify-content: center;
+}
+.hmb-first-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #fff;
+    min-width: 165px;
+    height: 50px;
+    border-radius: 5px;
+    margin: 0px 10px;
+    color: #fff;
+}
+.hmb-first-btn:hover{
+    border: 1px solid rgb(145,32,221); 
+    background: rgb(145,32,221);
+    background: linear-gradient(135deg, rgba(145,32,221,1) 0%, rgba(56,49,226,1) 100%);
+    color: #fff;
+}
+.hmb-second-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 165px;
+    height: 50px;
+    border-radius: 5px;
+    margin: 0 10px;
+    background: rgb(145,32,221);
+    background: linear-gradient(135deg, rgba(145,32,221,1) 0%, rgba(56,49,226,1) 100%);
+    border: 1px solid rgb(145,32,221); 
+    color: #fff;
+}
+.hmb-second-btn:hover{
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
 }
