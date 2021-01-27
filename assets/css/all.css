@@ -55,7 +55,8 @@ h5,h6{
     margin: 0px;
 }
 p{
-    font-size: 18px;    
+    font-size: 18px; 
+    margin: 0px;   
 }
 .container-fluid{
     max-width: 90%;
@@ -63,11 +64,13 @@ p{
 }
 
 
+
 /*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
         Header
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 */
+
 .header-content {
     display: flex;
     justify-content: space-between;
@@ -112,7 +115,7 @@ ul#menu-header li a {
 */
 
 .hmb-section {
-    height: 100vh;
+    height: 850px;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -126,6 +129,7 @@ ul#menu-header li a {
 }
 .hmb-img img{
     width: 100%;
+    padding: 0px 50px;
 }
 .hmb-info {
     max-width: 600px;
@@ -178,3 +182,49 @@ ul#menu-header li a {
     border: 1px solid #fff;
     color: #fff;
 }
+
+
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Our Solution business
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*/
+.osb-section {
+    padding: 100px 0px;
+}
+.osb-section {
+    padding: 100px 0px;
+}
+.osb-info {
+    text-align: center;
+    max-width: 650px;
+    margin: 0px auto 50px;
+}
+.osb-info span {
+    background-color: rgba(53, 179, 125, 0.5);
+    padding: 5px 20px;
+    border-radius: 20px;
+    color: #35B37D;
+}
+.osb-info h2 {
+    padding: 10px 0px;
+    color: #fff;
+}
+.osb-info p {
+    color: #4E6679;
+}
+.osb-box {
+    text-align: center;
+}
+.obs-box-title {
+    color: #fff;
+    margin-top: 20px;
+}
+.obs-box-description {
+    color: #4E6679;
+    padding: 10px 0px;
+}
+.obs-box-btn {
+    color: #1464D7;
+}
+
