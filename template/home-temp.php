@@ -125,5 +125,24 @@
     </div>
 </section>
 
+<!-- Get instant alert -->
+<section class="gis-section">
+    <div class="container">
+        <div class="gis-content row">
+            <div class="gis-img col-md-6">
+                <img src="<?php echo the_field('get_instant_img'); ?>" alt="">
+            </div>
+            <div class="gis-info col-md-6">
+                <h2><?php echo the_field('get_instant_title'); ?></h2>
+                <p><?php echo the_field('get_instant_description'); ?></p>
+                <div class="app-install-btn">
+                    <a href="<?php echo the_field('play_store_button_url'); ?>"><img src="<?php echo the_field('play_store_button_image'); ?>" alt=""></a>
+                    <a href="<?php echo the_field('app_store_button_url'); ?>"><img src="<?php echo the_field('app_store_button_image'); ?>" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 
 <?php get_footer(); ?>

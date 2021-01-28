@@ -381,3 +381,27 @@ ul#menu-header li a {
     border-radius: 20px;
     object-fit: cover;
 }
+
+
+
+
+
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Get instant alert
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*/
+
+.gis-img img {
+    width: 100%;
+}
+.gis-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.gis-info p {
+    color: #5A7184;
+    padding: 20px 0px;
+    max-width: 500px;
+}
