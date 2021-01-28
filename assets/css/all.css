@@ -53,6 +53,7 @@ h3,
 h4,
 h5,h6{
     margin: 0px;
+    color: #fff;
 }
 p{
     font-size: 18px; 
@@ -228,3 +229,31 @@ ul#menu-header li a {
     color: #1464D7;
 }
 
+
+
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Analyze your data
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*/
+.ayd-section {
+    padding: 100px 0px;
+}
+.ayd-info span {
+    color: #35B37D;
+}
+.ayd-info > p {
+    color: #4E6679;
+    padding: 10px 0px;
+}
+.aye-detail-info{
+    margin-top: 10px;
+}
+.aye-detail-info p {
+    color: #4E6679;
+    padding: 10px 0px;
+    font-size: 14px;
+}
+.aye-detail-info img {
+    margin: 10px 0px;
+}

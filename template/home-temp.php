@@ -55,4 +55,33 @@
     </div>
 </section>
 
+<!-- Analyze your data -->
+<section class="ayd-section">
+    <div class="container">
+        <div class="ayd-content row">
+            <div class="col-md-7">
+                <img src="<?php echo the_field('analyze_section_main_image');?>" width="100%" alt="">
+            </div>
+            <div class="col-md-5 ayd-info">
+                <span><?php echo the_field('analyze_section_tag');?></span>
+                <h2><?php echo the_field('analyze_section_title');?></h2>
+                <p><?php echo the_field('analyze_section_description');?></p>
+
+                <div class="row aye-detail-info">
+                    <?php if( have_rows('analyze_service') ):
+                        while( have_rows('analyze_service') ) : the_row(); ?>
+                            <div class="col-md-6">
+                                <img src="<?php echo the_sub_field('analyze_service_image'); ?>" alt="">                    
+                                <h5><?php echo the_sub_field('analyze_service_title'); ?></h5>
+                                <p><?php echo the_sub_field('analyze_service_description'); ?></p>
+                            </div>
+                        <?php endwhile;
+                    endif; ?>   
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
 <?php get_footer(); ?>
