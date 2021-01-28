@@ -267,7 +267,7 @@ ul#menu-header li a {
 
 .sis-section {
     height: 750px;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
@@ -286,4 +286,98 @@ ul#menu-header li a {
 .sis-conent p {
     color: #5A7184;
     padding: 10px 0px;
+}
+
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Collaborate Section 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*/
+.cbs-section {
+    padding: 100px 0px;
+}
+.cbs-content{
+    align-items: center;
+}
+.cbs-info span{
+    color: #35B37D;
+}
+.cbs-info p {
+    color: #5A7184;
+    padding: 10px 0px;
+}
+.cbs-list {
+    display: flex;
+    flex-flow: row wrap;
+    padding-top: 20px;
+}
+.cbs-imgs{
+    position: relative;
+    z-index: 1;
+}
+.cbs-imgs:before{
+    content: '';
+    position: absolute;
+    bottom: -50px;
+    left: 0;
+    right: 22px;
+    margin: auto;
+    background-image: url('../img/grid.png');
+    background-size: contain;
+    width: 100px;
+    height: 100px;
+    z-index: -1;
+    background-repeat: no-repeat;
+}
+.cbs-list li {
+    width: 49%;
+    color: #CECECE;
+    position: relative;
+    padding: 10px 0px 10px 30px;
+}
+.cbs-list li:before{
+    content: '';
+    position: absolute;
+    top: 12px;
+    background-image: url(../img/tick.png);
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    left: 0px;
+    
+}
+
+.cbs-imgs-first {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.cbs-imgs-second {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 20px;
+}
+.cbs-imgs-first img:first-child {
+    width: 40%;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.cbs-imgs-first img:last-child {
+    width: 55%;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.cbs-imgs-second img:first-child {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    object-fit: cover;
+    margin-right: 15px;
+}
+.cbs-imgs-second img:last-child {
+    width: 230px;
+    height: 230px;
+    border-radius: 20px;
+    object-fit: cover;
 }

@@ -95,5 +95,35 @@
     </div>
 </section>
 
+<!-- Collaborate Section -->
+<section class="cbs-section">
+    <div class="container">
+        <div class="cbs-content row">
+            <div class="col-md-6 cbs-info">
+                <span><?php echo the_field('collaborate_tag'); ?></span>
+                <h2><?php echo the_field('collaborate_title'); ?></h2>
+                <p><?php echo the_field('collaborate_description'); ?></p>
+                <ul class="cbs-list">
+                    <?php if( have_rows('collaborate_list') ):
+                        while( have_rows('collaborate_list') ) : the_row(); ?>
+                            <li><?php echo the_sub_field('collaborate_list_item'); ?></li>
+                        <?php endwhile;
+                    endif; ?> 
+                </ul>
+            </div>
+            <div class="col-md-6 cbs-imgs">
+                <div class="cbs-imgs-first">
+                    <img src="<?php echo the_field('collaborate_image_1'); ?>" alt="">
+                    <img src="<?php echo the_field('collaborate_image_2'); ?>" alt="">
+                </div>
+                <div class="cbs-imgs-second">
+                    <img src="<?php echo the_field('collaborate_image_3'); ?>" alt="">
+                    <img src="<?php echo the_field('collaborate_image_4'); ?>" alt="">    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 
 <?php get_footer(); ?>
