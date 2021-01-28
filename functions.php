@@ -23,7 +23,10 @@ function wpb_custom_new_menu() {
     register_nav_menus(
         array(
             'header-menu' => __( 'Header Menu' ),
-            'extra-menu' => __( 'Extra Menu' )
+            'footer-menu_1' => __( 'Product' ),
+            'footer-menu_2' => __( 'Services' ),
+            'footer-menu_3' => __( 'Company' ),
+            'footer-menu_4' => __( 'More' )
         )
     );
 }

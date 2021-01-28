@@ -41,7 +41,7 @@
                 
                 <?php if( have_rows('business_service') ):
                     while( have_rows('business_service') ) : the_row(); ?>
-                        <div class="osb-box col-md-2 col-lg-3">
+                        <div class="osb-box col-md-6 col-lg-3">
                             <img src="<?php echo the_sub_field('business_service_image'); ?>" alt="">
                             <h5 class="obs-box-title"><?php echo the_sub_field('business_service_title'); ?></h5>
                             <p class="obs-box-description"><?php echo the_sub_field('business_service_description'); ?></p>
@@ -99,7 +99,7 @@
 <section class="cbs-section">
     <div class="container">
         <div class="cbs-content row">
-            <div class="col-md-6 cbs-info">
+            <div class="col-md-12 col-lg-6 cbs-info">
                 <span><?php echo the_field('collaborate_tag'); ?></span>
                 <h2><?php echo the_field('collaborate_title'); ?></h2>
                 <p><?php echo the_field('collaborate_description'); ?></p>
@@ -111,7 +111,7 @@
                     endif; ?> 
                 </ul>
             </div>
-            <div class="col-md-6 cbs-imgs">
+            <div class="col-md-12 col-lg-6 cbs-imgs">
                 <div class="cbs-imgs-first">
                     <img src="<?php echo the_field('collaborate_image_1'); ?>" alt="">
                     <img src="<?php echo the_field('collaborate_image_2'); ?>" alt="">
@@ -143,6 +143,7 @@
         </div>
     </div>
 </section>
+
 
 
 <?php get_footer(); ?>
