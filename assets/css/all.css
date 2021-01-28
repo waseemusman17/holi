@@ -257,3 +257,33 @@ ul#menu-header li a {
 .aye-detail-info img {
     margin: 10px 0px;
 }
+
+
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Seamless integrations 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*/
+
+.sis-section {
+    height: 750px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.sis-conent {
+    max-width: 500px;
+    margin: auto;
+}
+
+.sis-conent span {
+    color: #35B37D;
+}
+.sis-conent p {
+    color: #5A7184;
+    padding: 10px 0px;
+}

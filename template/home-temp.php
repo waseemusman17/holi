@@ -84,4 +84,16 @@
     </div>
 </section>
 
+<!-- Seamless integrations -->
+<section class="sis-section" style="background-image:url('<?php echo the_field('integration_section_background_image'); ?>');">
+    <div class="container">
+        <div class="sis-conent">
+            <span><?php echo the_field('integration_section_tag'); ?></span>
+            <h2><?php echo the_field('integration_section_title'); ?></h2>
+            <p><?php echo the_field('integration_section_description'); ?></p>
+        </div>
+    </div>
+</section>
+
+
 <?php get_footer(); ?>
