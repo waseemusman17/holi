@@ -1,2 +1,2 @@
-# holi
+# hogi
 Wordpress Theme ( Holi )
